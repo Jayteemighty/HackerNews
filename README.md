@@ -1,6 +1,6 @@
 # HackerNews - Tech News Aggregator
 
-HackersFeed is a web application designed to streamline navigation through tech-related news from Hacker News. It provides an intuitive interface for browsing, searching, and filtering news items, along with the ability to add new items via an API. The project utilizes a combination of Next.js for the frontend and Django for the backend.
+Hackernews is a web application designed to streamline navigation through tech-related news from Hacker News. It provides an intuitive interface for browsing, searching, and filtering news items, along with the ability to add new items via an API. The project utilizes a combination of Next.js for the frontend and Django for the backend.
 
 ![Alt text](/docs-assets/image.png)
 
@@ -27,7 +27,7 @@ Before you start, make sure you have [Node.js](https://nodejs.org/) installed on
    ```
 
 ## Preview
-Below is a preview of how the HackersFeed web app looks:
+Below is a preview of how the Hackernews web app looks:
 
 ![Alt text](/docs-assets/image.png)
 
@@ -69,7 +69,7 @@ chmod +x backend.sh
 5. Run Celery workers and beat:
 
    ```bash
-   python -m celery -A hackersfeed_api worker & python -m celery -A hackersfeed_api beat
+   python -m celery -A hackernews_api worker & python -m celery -A hackernews_api beat
    ```
 
    This will start Celery workers and beat for background tasks.
