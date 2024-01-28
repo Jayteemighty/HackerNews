@@ -1,6 +1,6 @@
-# HackersFeed Frontend Setup
+# HackerNews Frontend Setup
 
-This guide will help you set up the frontend of the HackersFeed project.
+This guide will help you set up the frontend of the HackerNews project.
 
 ## Prerequisites
 
