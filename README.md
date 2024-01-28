@@ -49,8 +49,8 @@ Before you start, make sure you have the following software installed:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/MikunsHub/hackersfeed.git
-   cd hackersfeed
+   git clone https://github.com/Jayteemighty/HackerNews.git
+   cd hackernews
    ```
 
 2. Make sure you have Python 3.9.6 installed on your machine.
