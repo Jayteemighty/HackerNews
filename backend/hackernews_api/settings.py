@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "news",
-    "restframework",
+    "rest_framework",
     
 ]
 
@@ -80,11 +80,11 @@ WSGI_APPLICATION = "hackernews_api.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Hackernews',
-        'USER': 'admin',
+        'NAME': 'hackernews',
+        'USER': 'postgres',
         'PASSWORD': 'joshmanfood',
-        'HOST': 'localhost',  # Assuming your PostgreSQL server is running locally
-        'PORT': '5432',       # Default PostgreSQL port
+        'HOST': 'localhost', 
+        'PORT': '5432',      
     }
 }
 
