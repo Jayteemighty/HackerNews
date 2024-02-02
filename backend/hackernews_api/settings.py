@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "accounts",
     "news",
     "rest_framework",
-    
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
