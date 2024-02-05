@@ -26,8 +26,7 @@ def fetch_and_store_hackernews_data():
             if news_item_data.get("kids"):
                 process_comments(news_item_data["kids"], None, news_item)
     except Exception as e:
-        logging.error("An error occurred: git add .
-                      %s", str(e))
+        logging.error("An error occurred: %s", str(e))
 
 
 # fetch_and_store_hackernews_data.delay()
