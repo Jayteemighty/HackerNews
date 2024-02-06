@@ -3,9 +3,9 @@ import os
 from celery import Celery
 from django.conf import settings
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hackersfeed_api.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hackernews_api.settings")
 
-app = Celery("hackersfeed_api")
+app = Celery("hackernews_api")
 
 app.config_from_object("django.conf:settings", namespace="CELERY")
 

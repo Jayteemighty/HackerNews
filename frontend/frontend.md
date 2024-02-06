@@ -15,7 +15,7 @@ Before you start, make sure you have [Node.js](https://nodejs.org/) installed on
    ```
 
 ## Preview
-Below is a preview of how the HackersFeed web app looks:
+Below is a preview of how the Hackernews web app looks:
 
 ![Alt text](/docs-assets/image.png)
 

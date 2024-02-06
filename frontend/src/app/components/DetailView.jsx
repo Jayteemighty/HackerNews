@@ -176,7 +176,7 @@ const DetailView = ({ article }) => {
           <div className="border border-1-gray-500 my-4"></div>
           <div>
             <h3 className="text-sm font-light">
-              Welcome to HackersFeed comments section, Please keep conversations
+              Welcome to Hackernews comments section, Please keep conversations
               respectful and on topic. See our guidelines for more information.
             </h3>
           </div>

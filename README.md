@@ -12,7 +12,7 @@ Hackernews is a web application designed to streamline navigation through tech-r
 
 ## Getting Started
 
-To run the HackersFeed application, you'll need to set up both the frontend and backend components. Follow the steps below to get started:
+To run the Hackernews application, you'll need to set up both the frontend and backend components. Follow the steps below to get started:
 
 ### Frontend
 

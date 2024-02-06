@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-m3-e7pp51n7z1dv4(2f1je9r-#5&n%um*)@-i23(gou-_y=ycx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost","127.0.0.1","https://hackernewsapi.azurewebsites.net/","hackernewsapi.azurewebsites.net/"]
 
 
 # Application definition
