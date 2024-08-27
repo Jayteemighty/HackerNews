@@ -1,0 +1,10 @@
+venv
+.env
+
+backend/accounts/migrations
+
+__pycache__
+
+settings.ini
+
+backend/celerybeat-schedule.db
